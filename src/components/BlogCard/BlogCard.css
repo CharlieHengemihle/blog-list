@@ -8,6 +8,11 @@
   border-bottom: 2px solid var(--color3);
 }
 
+.authors {
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
 .details {
   grid-area: 'detail';
 }

@@ -8,7 +8,6 @@ export function useBlogs() {
     const fetchData = async () => {
       const resp = await getBlogs();
       setBlogs(resp);
-      console.log(resp);
     };
     fetchData();
   }, []);
